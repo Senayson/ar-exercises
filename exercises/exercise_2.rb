@@ -5,3 +5,10 @@ puts "Exercise 2"
 puts "----------"
 
 # Your code goes here ...
+@store1 = Store.find_by(id: 1);
+@store1.name = "New West"
+
+@store2 = Store.find_by(id: 2);
+
+@store3 = Store.find_by(id: 3);
+@store3.destroy
